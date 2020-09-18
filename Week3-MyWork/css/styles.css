@@ -236,7 +236,11 @@ body {
   /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
 	#logo-img {
-    visibility: hidden;
+    background: url('../images/restaurant-logo_small.png') no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px 5px 0;
+    }
   }
   /* Header */
   .navbar-brand h1 { /* Restaurant name */
