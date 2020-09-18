@@ -161,9 +161,9 @@ body {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 	#logo-img {
-    background: url('../images/restaurant-logo_small.png') no-repeat;
-    width: 50px;
-    height: 50px;
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
     margin: 5px 5px 5px 0;
   }
   /* Home Page */
@@ -177,6 +177,12 @@ body {
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
+  #logo-img {
+    background: url('../images/restaurant-logo_small.png') no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px 5px 0;
+  }
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
@@ -229,6 +235,9 @@ body {
 
   /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
+	#logo-img {
+    visibility: hidden;
+  }
   /* Header */
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 5px;
