@@ -160,6 +160,12 @@ body {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+	#logo-img {
+    background: url('../images/restaurant-logo_small.png') no-repeat;
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px 5px 0;
+  }
   /* Home Page */
   .container .jumbotron {
     background: url('../images/jumbotron_768.jpg') no-repeat;
