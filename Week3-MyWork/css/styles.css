@@ -229,11 +229,11 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
 	#logo-img {
     background: url('../images/restaurant-logo_medium.png') no-repeat;
-    width: 80px;
-    height: 100px;
+    width: 75px;
+    height: 90px;
     margin: 5px 5px 5px 0;
     background-position: center;
-    background-size: 80px 80px;
+    background-size: 75px 75px;
   }
   /* Home Page */
   .container .jumbotron {
