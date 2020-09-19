@@ -248,10 +248,10 @@ body {
   /* Header */
   #logo-img {
     background: url('../images/restaurant-logo_medium.png') no-repeat;
-    width: 80px;
+    width: 75px;
     height: 80px;
     background-position: center;
-    background-size: 80px 80px;
+    background-size: 75px 75px;
     margin: 5px 5px 5px 15px;
   }
   .navbar-brand {
