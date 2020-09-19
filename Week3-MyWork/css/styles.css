@@ -130,6 +130,14 @@ body {
 
 /* END HOME PAGE */
 
+/**/
+.typical-text{
+  color: #242038;
+}
+.title-text{
+  font-weight: bold;
+}
+
 /* FOOTER */
 .panel-footer {
   margin-top: 30px;
