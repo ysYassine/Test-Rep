@@ -351,6 +351,16 @@ h3.menu-item-title {
     margin: 0 auto 15px;
   }
   /*End Home Page*/
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;;
+  }
   /* Footer */
   .panel-footer section {
     margin-bottom: 30px;
