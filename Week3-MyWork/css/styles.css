@@ -89,7 +89,7 @@ body {
 
 /* HOME PAGE */
 .container .jumbotron {
-  box-shadow: 0 0 50px #242038;
+  box-shadow: -11px 11px 12px -5px rgba(50,41,74,1);
   border: 2px solid #242038;
 }
 
@@ -135,7 +135,7 @@ body {
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
-  background-color: #222;
+  background-color: #32294A;
   border-top: 0;
 }
 .panel-footer div.row {
@@ -148,7 +148,7 @@ body {
   font-size: 1.3em;
 }
 #address p {
-  color: #557c3e;
+  color: #E1D8D8;
   font-size: .8em;
   line-height: 1.8;
 }
@@ -253,6 +253,7 @@ body {
   #xs-deliver {
     margin-top: 5px;
     font-size: .7em;
+    color: #32294A;
     letter-spacing: .1em;
     text-transform: uppercase;
   }
