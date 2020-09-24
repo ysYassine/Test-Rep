@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Web starting point</title>
+    <style>
+      *{
+        background-color: #282C34;
+      }
+      h1,p,ul,a{
+        font-size: 2.5vw;
+        color : white;
+      }
+
+      .ImageFrame{
+        width: 75%;
+
+      }
+      .VideoFrame, .GameFrame{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+      }
+
+      .VideoFrame iframe, .GameFrame .gameContainer{
+        left:0;
+        top:0;
+        height:75%;
+        width:75%;
+        position:absolute;
+      }
+
+    </style>
+    
+    <!--Unity-->
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Html.json", {onProgress: UnityProgress});
+    </script>
+    <!--Unity ENDS-->
+
+  </head>
+  <body>
+    <!--Header tag-->
+    <h1>EY Smart Parking</h1>
+
+    <!--Paragraph tag-->
+    <p>Mini Map:</p>
+
+    <!--Image tag-->
+    <div class="GameFrame">
+      <div id="unityContainer" class="gameContainer" style="width: 75%; text-align: center;" ></div>
+    </div>
+    
+  </body>
+</html>
